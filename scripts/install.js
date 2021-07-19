@@ -234,5 +234,5 @@ downloadBinary()
   .catch(e => {
     // eslint-disable-next-line no-console
     console.error(e.toString());
-    process.exit(1);
+    process.exit(0);
   });
